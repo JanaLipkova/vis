@@ -44,7 +44,8 @@ vis.Slide      = 78;
 vis.OutputName   = ['slide_',num2str(vis.Slide)];
 vis.NameCutBy  = 0;
 
-vis.FigPosition = [0.1,0.1,0.4,0.89];
+% NEED TO BE SCALED FOR GIVEN SCREEEN
+vis.FigPosition = [0.1,0.1,0.4,0.89]; 
 
 
 visualise_multimodal_data(vis)
